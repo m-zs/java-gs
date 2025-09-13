@@ -59,6 +59,7 @@
 				<artifactId>spotless-maven-plugin</artifactId>
 				<version>2.43.0</version> <!-- Always check for the latest version -->
 				<configuration>
+					<lineEndings>UNIX</lineEndings>
 					<java>
 						<!-- Apply the Google Java Format style -->
 						<googleJavaFormat>
