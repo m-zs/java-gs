@@ -8,12 +8,12 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 public class GameApplication {
-	public static void main(String[] args) {
-		SpringApplication.run(GameApplication.class, args);
-	}
+  public static void main(String[] args) {
+    SpringApplication.run(GameApplication.class, args);
+  }
 
-	@GetMapping("/hello")
-	public String hello() {
-		return "Hello, World!";
-	}
+  @GetMapping("/hello")
+  public String hello() {
+    return "Hello, World! 3";
+  }
 }
